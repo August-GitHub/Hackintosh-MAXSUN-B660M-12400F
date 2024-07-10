@@ -26,7 +26,7 @@
 # 注意事项
 1. 通常来说🙆同型号主板接口是一样的，我已经做了接口定制如果发现无法使用USB、蓝牙等情况就需要 自己去做USB接口定制了 🤗     
    [国光-USB定制教程](https://apple.sqlsec.com/6-%E5%AE%9E%E7%94%A8%E5%A7%BF%E5%8A%BF/6-1/)
-2. 网卡方面没有使用免驱卡，使用的[itlwm](https://github.com/OpenIntelWireless/itlwm)，这个作者还有另一种方案AirportItlwm需要配合软件[HeliPort](https://openintelwireless.github.io/HeliPort/)使用，因为原理就是将网卡模拟到以太网，所以系统界面的WIFI开关无效。你可以把HeliPort加入登陆项，这样开机即用啦🤗，缺点就是因为imac本身也没有GPS，也没有使用系统WIFI导致，会无法获取定位，那么基于系统定位的天气什么的就不行了🥺。另外如果自己去弄这个要很小心，因为大多数教程都是旧mac的系统，14系统安装的时候有点不同，我忘记哪里看的文档了，大意就是14以上的系统某些文件不需要安装
+2. 网卡方面没有使用免驱卡，使用的[itlwm](https://github.com/OpenIntelWireless/itlwm)，这个作者还有另一种方案AirportItlwm，itlwm是需要配合软件[HeliPort](https://openintelwireless.github.io/HeliPort/)使用，因为原理就是将网卡模拟到以太网，所以系统界面的WIFI开关无效。你可以把HeliPort加入登陆项，这样开机即用啦🤗，缺点就是因为imac本身也没有GPS，也没有使用系统WIFI导致，会无法获取定位，那么基于系统定位的天气什么的就不行了🥺。另外如果自己去弄这个要很小心，因为大多数教程都是旧mac的系统，14系统安装的时候有点不同，我忘记哪里看的文档了，大意就是14以上的系统某些文件不需要安装
 ![img.png](img.png)
 ![img_1.png](img_1.png)
 
